@@ -52,8 +52,11 @@ jobs:
           ./scripts/feeds update -a
           ./scripts/feeds install -a
 
-      - name: Generate configuration file
-        run: make defconfig
+      #- name: Generate configuration file
+      #  run: make defconfig
+        
+      - name: Setup Debug Session
+        uses: csexton/debugger-action@master
 
       - name: Make download
         run: |
