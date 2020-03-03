@@ -10,7 +10,8 @@
 name: lede
 
 on:
-  push
+  release:
+  #push
 
 jobs:
 
