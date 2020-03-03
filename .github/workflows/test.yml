@@ -4,13 +4,10 @@ on:
   push
 
 jobs:
-
   build:
-
     runs-on: ubuntu-latest
 
     steps:
         
-      - name: Setup Debug Session
+      - name: ssh action Session
         uses: csexton/debugger-action@master
-
