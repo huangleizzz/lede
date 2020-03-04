@@ -1,7 +1,9 @@
 name: testaction
 
 on:
-  push
+  release:
+  #push
+
 
 jobs:
   build:
