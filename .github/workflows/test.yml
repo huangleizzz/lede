@@ -1,8 +1,8 @@
 name: testaction
 
 on:
-  #release:
-  push
+  release:
+  #push
 
 
 jobs:
