@@ -56,13 +56,11 @@ jobs:
 
       # - name: Generate configuration file
       #   run: make defconfig
-        
-      #- name: Setup Debug Session
-      #  uses: csexton/debugger-action@master
+      # - name: Setup Debug Session
+      #   uses: csexton/debugger-action@master
       
       - name: Debugging with tmate
         uses: mxschmitt/action-tmatev2
-
 
       - name: Make download
         run: |
