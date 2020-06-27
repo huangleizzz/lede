@@ -11,5 +11,8 @@ jobs:
 
     steps:
         
-      - name: ssh action Session
-        uses: csexton/debugger-action@master
+#      - name: ssh action Session
+#        uses: csexton/debugger-action@master
+
+      - name: Setup tmate session
+        uses: mxschmitt/action-tmate@v2
