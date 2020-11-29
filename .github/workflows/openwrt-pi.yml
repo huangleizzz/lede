@@ -10,7 +10,7 @@
 name: lede_pi
 
 on:
-  release
+  #release
   push
 
 jobs:
